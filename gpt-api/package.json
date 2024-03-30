@@ -1,0 +1,29 @@
+{
+  "name": "gpt-api",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/babel__core": "^7.20.1",
+    "solid-start-node": "^0.3.9",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.9",
+    "vite-plugin-solid-styled": "^0.8.3"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.1",
+    "@solidjs/router": "^0.8.3",
+    "eventsource-parser": "^1.1.1",
+    "solid-js": "^1.8.5",
+    "solid-start": "^0.3.9",
+    "solid-start-cloudflare-workers": "^0.3.9",
+    "solid-start-vercel": "^0.3.9",
+    "solid-styled": "^0.8.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
